@@ -10,6 +10,57 @@
 </head>
 
 <body>
+<style>
+    body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+	/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+    
+    /* Add a gray background color and some padding to the footer */
+    footer { 
+    background-color: #1abc9c; /* Green */
+    color: #ffffff;
+	padding: 25px;
+  }
+     
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) 
+  {
+    .carousel-caption {
+      display: none; 
+    }
+  }
+	#Carousel1
+	{
+		margin: center;
+	}
+	.navbar-nav  li a:hover {
+	color: #1abc9c !important;
+	}
+  
+  </style>
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -22,8 +73,8 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li class="active"><a href="..\ProjetoDesignWeb-Port\index.html">Home</a></li>
+        <li><a href="..\ProjetoDesignWeb-Port\About_us.html">About</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -44,7 +95,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="https://placehold.it/1200x400?text=IMAGE" alt="Image">
+        <img src="..\ProjetoDesignWeb-Port\Img's\180924-Internet3-485x278.jpg" alt="Image" id="Carousel1">
         <div class="carousel-caption">
           <h3>Sell $</h3>
           <p>Money Money.</p>
@@ -52,7 +103,7 @@
       </div>
 
       <div class="item">
-        <img src="https://placehold.it/1200x400?text=Another Image Maybe" alt="Image">
+        <img src="..\ProjetoDesignWeb-Port\Img's\BIGBROTHER.jpg" alt="Image">
         <div class="carousel-caption">
           <h3>More Sell $</h3>
           <p>Lorem ipsum...</p>
@@ -75,11 +126,11 @@
   <h3>What We Do</h3><br>
   <div class="row">
     <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="..\ProjetoDesignWeb-Port\Img's\download.jpg" class="img-responsive" style="width:100%" alt="Image">
       <p>Current Project</p>
     </div>
     <div class="col-sm-4"> 
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <img src="..\ProjetoDesignWeb-Port\Img's\redes-socias-x-politica-31463145826.jpg" class="img-responsive" style="width:100%" alt="Image">
       <p>Project 2</p>    
     </div>
     <div class="col-sm-4">

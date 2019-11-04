@@ -22,5 +22,10 @@
     .carousel-caption {
       display: none; 
     }
+	
+	#Carousel1
+	{
+		margin: center;
+	}
   }
   </style>
